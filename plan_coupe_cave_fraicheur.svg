@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Georgia, serif">
+  <defs>
+    <pattern id="terre" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#c9a876"/>
+      <circle cx="3" cy="4" r="0.8" fill="#a8865a"/>
+      <circle cx="7" cy="8" r="0.8" fill="#a8865a"/>
+    </pattern>
+    <pattern id="gravier" width="12" height="8" patternUnits="userSpaceOnUse">
+      <rect width="12" height="8" fill="#d8d3c8"/>
+      <ellipse cx="3" cy="3" rx="2" ry="1.4" fill="#a9a294"/>
+      <ellipse cx="9" cy="6" rx="2" ry="1.4" fill="#b8b1a2"/>
+    </pattern>
+  </defs>
+
+  <!-- Ciel -->
+  <rect x="0" y="0" width="1000" height="150" fill="#fdf3e3"/>
+  <circle cx="900" cy="60" r="30" fill="#f6b26b"/>
+  <text x="860" y="115" font-size="14" fill="#b45f06">50 °C</text>
+
+  <!-- Terre -->
+  <rect x="0" y="150" width="1000" height="570" fill="url(#terre)"/>
+
+  <!-- Butte de terre végétalisée -->
+  <path d="M 180 150 Q 420 20 660 150 Z" fill="#8fae5d" stroke="#5c7a3a" stroke-width="2"/>
+  <path d="M 210 150 Q 420 45 630 150 Z" fill="url(#terre)" opacity="0.85"/>
+  <!-- Végétation -->
+  <g stroke="#3e6b2a" stroke-width="3" fill="none">
+    <path d="M 300 105 q -8 -25 4 -38 M 300 105 q 10 -20 18 -24"/>
+    <path d="M 420 55 q -10 -28 2 -42 M 420 55 q 12 -22 20 -26"/>
+    <path d="M 540 105 q -8 -25 4 -38 M 540 105 q 10 -20 18 -24"/>
+  </g>
+  <circle cx="303" cy="65" r="16" fill="#4d7d33"/>
+  <circle cx="424" cy="12" r="19" fill="#4d7d33"/>
+  <circle cx="543" cy="65" r="16" fill="#4d7d33"/>
+
+  <!-- Voûte (buse / coupole) -->
+  <path d="M 300 260 A 120 110 0 0 1 540 260 L 540 285 L 300 285 Z" fill="#e8b4b8" stroke="#8b5a5e" stroke-width="3"/>
+  <path d="M 322 268 A 98 90 0 0 1 518 268 L 518 285 L 322 285 Z" fill="#f5efe6"/>
+
+  <!-- Puits (buses béton) -->
+  <rect x="300" y="285" width="22" height="280" fill="#e8b4b8" stroke="#8b5a5e" stroke-width="2"/>
+  <rect x="518" y="285" width="22" height="280" fill="#e8b4b8" stroke="#8b5a5e" stroke-width="2"/>
+  <rect x="322" y="285" width="196" height="280" fill="#f5efe6"/>
+  <!-- Joints de buses -->
+  <line x1="300" y1="380" x2="322" y2="380" stroke="#8b5a5e" stroke-width="2"/>
+  <line x1="518" y1="380" x2="540" y2="380" stroke="#8b5a5e" stroke-width="2"/>
+  <line x1="300" y1="475" x2="322" y2="475" stroke="#8b5a5e" stroke-width="2"/>
+  <line x1="518" y1="475" x2="540" y2="475" stroke="#8b5a5e" stroke-width="2"/>
+
+  <!-- Étagères -->
+  <g fill="#9c7b4f" stroke="#6e5637" stroke-width="1.5">
+    <rect x="330" y="360" width="70" height="8"/>
+    <rect x="330" y="430" width="70" height="8"/>
+    <rect x="330" y="500" width="70" height="8"/>
+  </g>
+  <g fill="#c17f3e"><circle cx="350" cy="352" r="7"/><circle cx="368" cy="352" r="7"/><circle cx="352" cy="422" r="7"/></g>
+
+  <!-- Échelle -->
+  <g stroke="#6e5637" stroke-width="4" fill="none">
+    <line x1="470" y1="300" x2="470" y2="560"/>
+    <line x1="498" y1="300" x2="498" y2="560"/>
+    <line x1="470" y1="330" x2="498" y2="330"/><line x1="470" y1="370" x2="498" y2="370"/>
+    <line x1="470" y1="410" x2="498" y2="410"/><line x1="470" y1="450" x2="498" y2="450"/>
+    <line x1="470" y1="490" x2="498" y2="490"/><line x1="470" y1="530" x2="498" y2="530"/>
+  </g>
+
+  <!-- Radier + gravier drainant + drain -->
+  <rect x="300" y="565" width="240" height="30" fill="url(#gravier)" stroke="#8b8378" stroke-width="1.5"/>
+  <circle cx="420" cy="612" r="14" fill="none" stroke="#5b8fa8" stroke-width="4"/>
+  <line x1="420" y1="626" x2="420" y2="680" stroke="#5b8fa8" stroke-width="4" stroke-dasharray="8 5"/>
+  <path d="M 420 680 L 412 668 M 420 680 L 428 668" stroke="#5b8fa8" stroke-width="4" fill="none"/>
+
+  <!-- Sas d'accès nord en chicane -->
+  <rect x="540" y="440" width="150" height="70" fill="#f5efe6" stroke="#8b5a5e" stroke-width="3"/>
+  <rect x="690" y="330" width="70" height="180" fill="#f5efe6" stroke="#8b5a5e" stroke-width="3"/>
+  <!-- Escalier -->
+  <g fill="#d9c9a3" stroke="#8b5a5e" stroke-width="1.5">
+    <rect x="700" y="480" width="50" height="30"/>
+    <rect x="700" y="450" width="50" height="30" transform="translate(0,-8)"/>
+    <rect x="700" y="412" width="50" height="30" transform="translate(0,-10)"/>
+    <rect x="700" y="372" width="50" height="30" transform="translate(0,-10)"/>
+    <rect x="700" y="332" width="50" height="30" transform="translate(0,-10)"/>
+  </g>
+  <!-- Portes isolées -->
+  <rect x="548" y="448" width="14" height="54" fill="#7a5a3a" stroke="#4a3520" stroke-width="2"/>
+  <rect x="672" y="448" width="14" height="54" fill="#7a5a3a" stroke="#4a3520" stroke-width="2"/>
+  <!-- Entrée nord en surface -->
+  <rect x="690" y="290" width="70" height="40" fill="#f5efe6" stroke="#8b5a5e" stroke-width="3"/>
+  <rect x="688" y="282" width="74" height="10" fill="#7a5a3a"/>
+
+  <!-- Ventilation haute -->
+  <rect x="410" y="120" width="18" height="120" fill="#cfd8dc" stroke="#607d8b" stroke-width="2"/>
+  <path d="M 400 120 L 438 120 L 419 100 Z" fill="#607d8b"/>
+
+  <!-- Flèches air froid -->
+  <g stroke="#3d85c6" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M 650 470 q -40 30 -80 55" marker-end="url(#fl)"/>
+    <path d="M 560 525 q -30 15 -60 25"/>
+  </g>
+
+  <!-- Cotes -->
+  <g stroke="#333" stroke-width="1.5" fill="none">
+    <line x1="255" y1="285" x2="255" y2="565"/>
+    <line x1="248" y1="285" x2="262" y2="285"/><line x1="248" y1="565" x2="262" y2="565"/>
+    <line x1="330" y1="640" x2="510" y2="640"/>
+    <line x1="330" y1="633" x2="330" y2="647"/><line x1="510" y1="633" x2="510" y2="647"/>
+    <line x1="180" y1="150" x2="180" y2="80"/>
+    <line x1="173" y1="150" x2="187" y2="150"/><line x1="173" y1="80" x2="187" y2="80"/>
+  </g>
+  <text x="200" y="430" font-size="17" fill="#333" transform="rotate(-90 210 430)">3,0–3,5 m</text>
+  <text x="382" y="665" font-size="17" fill="#333">Ø 2,0–2,5 m</text>
+  <text x="120" y="120" font-size="15" fill="#333">butte ≥1,5 m</text>
+
+  <!-- Températures -->
+  <text x="390" y="470" font-size="26" font-weight="bold" fill="#3d85c6">12–14 °C</text>
+  <text x="345" y="497" font-size="14" fill="#3d85c6" font-style="italic">constant toute l'année</text>
+
+  <!-- Légendes -->
+  <g font-size="15" fill="#222">
+    <text x="30" y="35" font-size="22" font-weight="bold">Cave-fraîcheur autoconstruite — coupe de principe</text>
+    <text x="640" y="230">① Entrée au NORD</text>
+    <text x="640" y="252">② Sas en chicane, 2 portes isolées</text>
+    <text x="30" y="200">③ Butte végétalisée (ombre + évapotranspiration)</text>
+    <text x="30" y="250">④ Voûte / dalle</text>
+    <text x="30" y="300">⑤ Buses béton Ø2 m</text>
+    <text x="30" y="350">   (3 éléments empilés)</text>
+    <text x="30" y="590">⑥ Lit de gravier drainant + géotextile</text>
+    <text x="30" y="618">⑦ Drain d'évacuation (jamais d'eau stagnante)</text>
+    <text x="440" y="95">⑧ Chapeau de ventilation</text>
+    <text x="440" y="113">   (clapet fermé en journée)</text>
+  </g>
+</svg>
