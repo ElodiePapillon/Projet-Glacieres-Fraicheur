@@ -1,2 +1,23 @@
-# Projet-Glacieres-Fraicheur
-Idées et travaux ouverts pour un rafraîchissement urbain durable, inspirés des glacières anciennes — au service de la résilience et de l'avenir.
+# Projet Glacières Fraîcheur
+
+## Pourquoi ce dépôt ?
+
+Ce dépôt met librement à disposition un ensemble d'idées et de travaux consacrés au rafraîchissement urbain durable, inspirés du principe des glacières anciennes. Il s'adresse à celles et ceux qui décident et votent, à celles et ceux qui peuvent financer, et à toutes les personnes prêtes à œuvrer pour l'avenir de l'humanité.
+
+Ces idées sont guidées par la résilience et tournées vers l'avenir. Les travaux présentés s'appuient sur des études existantes et des recherches réelles, et non sur de simples intuitions.
+
+Portées par une réflexion en arborescence et une démarche désintéressée, ces propositions visent une vision globale et efficiente : des travaux qui, je l'espère, serviront durablement l'avenir.
+
+## À qui s'adresse ce projet ?
+
+**Élus et décideurs :** des pistes concrètes pour orienter les politiques publiques de rafraîchissement urbain.
+
+**Scientifiques et chercheurs :** une base de réflexion ouverte, ancrée dans des études existantes, à discuter et à approfondir.
+
+**Financeurs et acteurs de terrain :** des propositions à évaluer, soutenir et mettre en œuvre.
+
+**Néophytes et curieux :** une invitation à comprendre et à contribuer, sans prérequis technique.
+
+## Contribuer
+
+Toute contribution, remarque ou question est la bienvenue. Ce dépôt a vocation à évoluer et à s'enrichir des apports de chacun.
