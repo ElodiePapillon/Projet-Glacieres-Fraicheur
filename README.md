@@ -27,3 +27,5 @@ Toute contribution, remarque ou question est la bienvenue. Ce dépôt a vocation
 - [Fiche solution « Refuge thermique passif & puits climatique »](fiche_solution_plusfraichemaville.md) — au format du catalogue « Plus fraîche ma ville » (ADEME).
 - [Message d'accompagnement pour l'ADEME](message_contact_ademe.md) — proposition d'intégration de la fiche au service Plus fraîche ma ville.
 - [Projet cave-fraîcheur 2026](projet_cave_fraicheur_2026.md) — document technique détaillé (dimensionnement, chiffrage, mise en œuvre).
+- [Annexe — hypothèses et calculs](annexe_hypotheses_et_calculs.md) — hypothèses chiffrées et méthode du dossier national.
+- [De l'ouvrage individuel au programme communal](passage_individuel_au_communal.md) — note de liaison entre l'échelle individuelle et le programme public.
