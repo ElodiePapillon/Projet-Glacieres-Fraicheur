@@ -29,3 +29,5 @@ Toute contribution, remarque ou question est la bienvenue. Ce dépôt a vocation
 - [Projet cave-fraîcheur 2026](projet_cave_fraicheur_2026.md) — document technique détaillé (dimensionnement, chiffrage, mise en œuvre).
 - [Annexe — hypothèses et calculs](annexe_hypotheses_et_calculs.md) — hypothèses chiffrées et méthode du dossier national.
 - [De l'ouvrage individuel au programme communal](passage_individuel_au_communal.md) — note de liaison entre l'échelle individuelle et le programme public.
+- [Note de préfiguration — commune pilote](note_prefiguration_commune_pilote.md) — proposition d'expérimentation locale du dispositif, étapes et indicateurs.
+- [Mail type — Fonds vert](mail_type_fonds_vert.md) — modèle de prise de contact avec le service instructeur (préfecture / DDT).
