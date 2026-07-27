@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces travaux, merci de les citer comme suit."
+title: "Projet Glacieres Fraicheur : rafraichissement urbain passif inspire des glacieres anciennes"
+abstract: "Travaux ouverts sur le rafraichissement urbain durable par voie passive, inspire des glacieres et caves a fraicheur anciennes : note de prefiguration, hypotheses et calculs, fiche solution et documents d'appui pour collectivites."
+type: dataset
+authors:
+  - family-names: Papillon
+    given-names: Elodie
+license: CC-BY-4.0
+repository-code: "https://github.com/ElodiePapillon/Projet-Glacieres-Fraicheur"
+url: "https://github.com/ElodiePapillon/Projet-Glacieres-Fraicheur"
+version: "1.0.0"
+date-released: "2026-07-27"
+keywords:
+  - rafraichissement urbain
+  - adaptation climatique
+  - refroidissement passif
+  - urbanisme
+  - politique publique
