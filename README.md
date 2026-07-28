@@ -1,6 +1,6 @@
 # Projet Glacières Fraîcheur
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21632406.svg)](https://doi.org/10.5281/zenodo.21632406)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21632405.svg)](https://doi.org/10.5281/zenodo.21632405)
 
 > **English summary** — Open, freely reusable working papers on **passive urban cooling** inspired by pre-industrial ice houses and cold cellars. The repository gathers a pilot-project note for a municipality, a methodological annex with assumptions and calculations, a one-page solution sheet, and ready-to-use contact templates for French public funding bodies (ADEME, Fonds vert). Licensed **CC BY 4.0** — reuse and adaptation encouraged, with attribution.
 
@@ -40,10 +40,10 @@ Toute contribution, remarque ou question est la bienvenue. Ce dépôt a vocation
 
 ## Citer et réutiliser ces travaux
 
-**DOI (toutes versions)** : [10.5281/zenodo.21632406](https://doi.org/10.5281/zenodo.21632406) — archivage permanent sur Zenodo (CERN).
+**DOI (toutes versions)** : [10.5281/zenodo.21632405](https://doi.org/10.5281/zenodo.21632405) — archivage permanent sur Zenodo (CERN).
 
 Diffusés sous licence [CC BY 4.0](LICENSE) : reprise, adaptation et republication libres, y compris à des fins commerciales, sous réserve d'en citer l'origine. Un fichier [CITATION.cff](CITATION.cff) est fourni pour la citation automatique.
 
-> Papillon, É. (2026). *Projet Glacières Fraîcheur — rafraîchissement urbain passif*. Zenodo. https://doi.org/10.5281/zenodo.21632406
+> Perrichon, E. (2026). *Projet Glacières Fraîcheur — rafraîchissement urbain passif*. Zenodo. https://doi.org/10.5281/zenodo.21632405
 
 Collectivités, bureaux d'études et chercheurs intéressés par une expérimentation pilote sont invités à ouvrir un sujet dans l'onglet **Discussions**.
